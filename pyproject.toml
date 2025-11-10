@@ -2,16 +2,19 @@
 name = "ml-from-scratch"
 version = "0.1.0"
 description = "Machine Learning implementations from scratch"
-authors = ["Muntasir Rahman <email@example.com>"]
+authors = ["Muntasir Rahman <mrahman@keystonestrategy.com>"]
 readme = "README.md"
 packages = [{include = "ml_from_scratch"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.15"
 numpy = "^2.3.4"
 matplotlib = "^3.10.7"
 pandas = "^2.3.3"
 scikit-learn = "^1.7.2"
+torch = "^2.9.0"
+torchvision = "^0.24.0"
+torchaudio = "^2.9.0"
 
 [tool.poetry.group.dev.dependencies]
 jupyter = "^1.0.0"
