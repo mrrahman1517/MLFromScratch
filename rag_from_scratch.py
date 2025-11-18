@@ -14,13 +14,13 @@ Components:
 Run:
     python rag_from_scratch.py
 
-Author: (you)
+Author: Muntasir Raihan Rahman
 """
 from __future__ import annotations
 
-import math
+#import math
 import re
-import sys
+#import sys
 from dataclasses import dataclass
 from typing import Dict, List, Tuple
 import numpy as np
